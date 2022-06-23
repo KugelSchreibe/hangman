@@ -69,8 +69,6 @@ class Game
       @letters.map do |letter|
         if normalize_letters(@user_guesses).include?(normalize_letter(letter))
           letter
-        else
-          nil
         end
       end
     result
